@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
       <h1>SnackTrack</h1>
-      <img className="logo" src="/logo.png" alt="Our logo" />
+      <img className="logo" src="img/logo.png" alt="Our logo" />
       <div className="landing">
         <a href="login.html">
           <button>Login</button>
