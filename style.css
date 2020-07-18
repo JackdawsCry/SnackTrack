@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Scada', sans-serif;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.logo{
+  height: 200px;
+  width: 200px;
+  padding: 50px 0;
+}
+
+button {
+  margin: 8px;
+  border-radius: 20px;
+  background-color: #F6D0AD; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  outline: none;
+}
+
+button:active {
+  background-color: orange;
+}
+
+.login{
+  font-family: 'Mulish', sans-serif;
+}
