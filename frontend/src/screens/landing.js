@@ -8,11 +8,11 @@ function login(props) {
       <img className="logo" src="img/logo.png" alt="Our logo" />
       <div className="landing">
         <button>
-          <Link to="/login"> Login </Link>
+          <Link to="/userTypeLogin"> Login </Link>
         </button>
-        <a href="userTypeSignup.html">
-          <button> Sign Up </button>
-        </a>
+        <button>
+          <Link to="/userTypeSignup">Sign Up</Link>
+        </button>
       </div>
     </div>
   );
