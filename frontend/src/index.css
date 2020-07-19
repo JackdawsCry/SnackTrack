@@ -1,7 +1,8 @@
 body {
+    
     margin: 0;
     text-align: center;
-    font-family: 'Scada', sans-serif;
+    font-family: 'Corbel', sans-serif;
     background-image: url(/img/brocco.jpg);
     background-position: top right;
 }
