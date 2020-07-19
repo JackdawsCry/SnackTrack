@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Route exact path="/" component={landing} />
       <Route path="/userTypeLogin" component={userTypeLogin} />
-      <Route path="/userTypeSignup" compoennt={userTypeSignup}/>
+      <Route path="/userTypeSignup" component={userTypeSignup}/>
     </BrowserRouter>
   );
 }
