@@ -7,9 +7,10 @@ function landing(props) {
       <h1> SnackTrack </h1>
       <img className="logo" src="img/logo.png" alt="Our logo" />
       <div className="landing">
-        <Link to="/login">
+        <Link to="/userTypeLogin">
           <button>Login</button>
         </Link>
+
         <Link to="/userTypeSignup">
           <button>Sign Up</button>
         </Link>

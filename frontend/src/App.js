@@ -10,14 +10,6 @@ import userTypeLogin from "./screens/userTypeLogin";
 import userTypeSignup from"./screens/userTypeSignup";
 
 function App() {
-<<<<<<< HEAD
-  return (
-    <BrowserRouter>    
-      <Route path="/login" component={login} />
-      <Route exact path="/" component={landing} />
-      <Route path="/userTypeLogin" component={userTypeLogin} />
-      <Route path="/userTypeSignup" component={userTypeSignup}/>
-=======
   const [userType, setUserType] = useState("user");
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -28,7 +20,6 @@ function App() {
       <Route path="/userTypeSignup" component={userTypeSignup} />
       <Route path="/browse" component={browse} />
       <Route path="/donate" component={donate} />
->>>>>>> a14b12622558ee729eb4b286d46463a4bf51a4a0
     </BrowserRouter>
   );
 }
