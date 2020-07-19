@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Route exact path="/" component={landing} />
-      <Route path="/userTypeLogin" component={userTypeLogin} />
+      <Route path="/login" component={login} />
       <Route path="/userTypeSignup" component={userTypeSignup} />
       <Route path="/browse" component={browse} />
       <Route path="/donate" component={donate} />
