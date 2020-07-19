@@ -1,5 +1,4 @@
 import React from "react";
-import './index.css';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function landing(props) {
@@ -11,6 +10,7 @@ function landing(props) {
         <Link to="/login">
           <button>Login</button>
         </Link>
+
         <Link to="/userTypeSignup">
           <button>Sign Up</button>
         </Link>

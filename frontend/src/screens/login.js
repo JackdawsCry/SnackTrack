@@ -1,5 +1,4 @@
 import React from "react";
-import './index.css';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function login(props) {
