@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function Donate(props) {
@@ -35,12 +35,12 @@ function Donate(props) {
             <label for="username">
               Username:
             </label>
-            <input type= "username" name="username" id= "username" onChange={(e)=> setUsername(e.target.value)}>
+            <input type="username" name="username" id="username" onChange={(e) => setUsername(e.target.value)}>
             </input>
           </li>
           <li>
             <label for="password">Password</label>
-            <input type="password" id="password" name= "password" onChange={(e)=>setPassword(e.target.value)}>
+            <input type="password" id="password" name="password" onChange={(e) => setPassword(e.target.value)}>
             </input>
           </li>
         </ul></form></div>
