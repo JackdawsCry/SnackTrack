@@ -10,15 +10,14 @@ import userTypeSignup from "./screens/userTypeSignup";
 function App() {
   const [userType, setUserType] = useState("user");
   const [loggedIn, setLoggedIn] = useState(false);
+
   return (
     <BrowserRouter>
-      <Route
-        exact
-        path="/"
-        component={loggedIn ? (userType == "user" ? browse : donate) : landing}
-      />
+      <Route exact path="/" component={landing} />
       <Route path="/userTypeLogin" component={userTypeLogin} />
       <Route path="/userTypeSignup" component={userTypeSignup} />
+      <Route path="/browse" component={browse} />
+      <Route path="/donate" component={donate} />
     </BrowserRouter>
   );
 }
