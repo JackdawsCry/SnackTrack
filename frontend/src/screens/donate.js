@@ -9,41 +9,32 @@ function Donate(props) {
   const [password,setPassword]=useState("");
   return (
     <div className="donatepage">
-      <form>
-        <ul className= "donatepage-container">
-          <li>
+    <h1>SnackTrack</h1>
+    <img class="logo" src="img/logo.png" alt="Our logo" />
+    <h2>Restaurant Sign Up</h2>
             <label for="foodItem">
-              Food Item:
+              Food Item:   
             </label>
             <input type= "foodItem" name="foodItem" id= "foodItem" onChange={(e)=> setFoodItem(e.target.value)}>
             </input>
-          </li>
-          <li>
             <label for="quantity">
               Quantity (servings): 
             </label>
             <input type="number" id="quantity" name="quantity" min="1" ></input>
-          </li>
-          <li>
             <label for="time">
               Time of Disposal:
             </label>
             <input type= "time" name="time" id= "time" onChange={(e)=> setTime(e.target.value)}>
             </input>
-          </li>
-          <li>
             <label for="username">
               Username:
             </label>
             <input type="username" name="username" id="username" onChange={(e) => setUsername(e.target.value)}>
             </input>
-          </li>
-          <li>
             <label for="password">Password</label>
             <input type="password" id="password" name="password" onChange={(e) => setPassword(e.target.value)}>
             </input>
-          </li>
-        </ul></form></div>
+        </div>
   );
 }
 
