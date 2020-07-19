@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function userTypeSignup(props) {
   return (
@@ -8,7 +9,9 @@ function userTypeSignup(props) {
       <h2>What type of user are you?</h2>
       <div className="userType">
           <button type="button">I'm a restaurant</button>
-          <button type="button">I'm looking for food</button>
+          <Link to="/signup">
+            <button>I'm looking for food</button>
+          </Link>
       </div>
     </div>
   );
