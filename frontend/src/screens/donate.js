@@ -2,34 +2,33 @@ import React, { useState } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function Donate(props) {
-  const [dName, setdName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [address, setAddress] = useState("");
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [foodItem,setFoodItem]=useState("");
+  const [quantity,setAddress]=useState("");
+  const [time,setTime]=useState("");
+  const [username,setUsername]=useState("");
+  const [password,setPassword]=useState("");
   return (
-    <div className="signinform">
+    <div className="donatepage">
       <form>
-        <ul className="signinform-container">
+        <ul className= "donatepage-container">
           <li>
-            <label for="dName">
-              Restaurant Name:
+            <label for="foodItem">
+              Food Item:
             </label>
-            <input type="dName" name="dName" id="dName" onChange={(e) => setdName(e.target.value)}>
+            <input type= "foodItem" name="foodItem" id= "foodItem" onChange={(e)=> setFoodItem(e.target.value)}>
             </input>
           </li>
           <li>
-            <label for="phone">
-              Phone Number:
+            <label for="quantity">
+              Quantity (servings): 
             </label>
-            <input type="phone" name="phone" id="phone" onChange={(e) => setPhone(e.target.value)}>
-            </input>
+            <input type="number" id="quantity" name="quantity" min="1" ></input>
           </li>
           <li>
-            <label for="address">
-              Phone Number:
+            <label for="time">
+              Time of Disposal:
             </label>
-            <input type="address" name="address" id="address" onChange={(e) => setAddress(e.target.value)}>
+            <input type= "time" name="time" id= "time" onChange={(e)=> setTime(e.target.value)}>
             </input>
           </li>
           <li>
