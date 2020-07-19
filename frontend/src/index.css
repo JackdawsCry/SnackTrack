@@ -37,6 +37,11 @@ button:active {
 
 .login {
     font-family: 'Mulish', sans-serif;
+    flex-direction: column;
+}
+
+.inputField{
+    padding: 10px 0;
 }
 
 .buttonLink {

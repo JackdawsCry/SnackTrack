@@ -8,11 +8,17 @@ function login(props) {
         <img class="logo" src="img/logo.png" alt="Our logo"/>
         <h2>User Login</h2>
         <div class="login">
-            <label for="fname">Username:</label>
-            <input type="text" id="fname" name="fname"/>
-            <label for="fname">Password:</label>
-            <input type="text" id="fname" name="fname"/>
-            <button>Submit</button>
+            <div class="inputField">
+                <label>Username: </label>
+                <input/>
+            </div>
+            <div class="inputField">
+                <label>Password: </label>
+                <input/>
+            </div>
+            <div class="inputField">
+                <button>Submit</button>
+            </div>
         </div>
     </div>
   );
