@@ -15,7 +15,7 @@ function Donate(props) {
             <label for="foodItem">
               Food Item:
             </label>
-            <input type= "foodItem" name="foodItem" id= "foodItem" onChange={(e)=> setdName(e.target.value)}>
+            <input type= "foodItem" name="foodItem" id= "foodItem" onChange={(e)=> setFoodItem(e.target.value)}>
             </input>
           </li>
           <li>
