@@ -35,3 +35,8 @@ button:active {
 .login {
     font-family: 'Mulish', sans-serif;
 }
+
+.buttonLink {
+    text-decoration: none;
+    color: black;
+}

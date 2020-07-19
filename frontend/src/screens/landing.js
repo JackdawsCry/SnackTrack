@@ -7,12 +7,13 @@ function login(props) {
       <h1> SnackTrack </h1>
       <img className="logo" src="img/logo.png" alt="Our logo" />
       <div className="landing">
-        <button>
-          <Link to="/userTypeLogin"> Login </Link>
-        </button>
-        <button>
-          <Link to="/userTypeSignup">Sign Up</Link>
-        </button>
+        <Link to="/userTypeLogin">
+          <button>Login</button>
+        </Link>
+
+        <Link to="/userTypeSignup">
+          <button>Sign Up</button>
+        </Link>
       </div>
     </div>
   );
