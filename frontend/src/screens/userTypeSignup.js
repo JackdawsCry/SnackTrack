@@ -8,7 +8,9 @@ function userTypeSignup(props) {
       <img className="logo" src="img/logo.png" alt="Our logo" />
       <h2>What type of user are you?</h2>
       <div className="userType">
-          <button type="button">I'm a restaurant</button>
+          <Link to="/donatorSignup">
+            <button>I'm a restaurant</button>
+          </Link>
           <Link to="/signup">
             <button>I'm looking for food</button>
           </Link>

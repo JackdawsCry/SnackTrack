@@ -8,6 +8,7 @@ import donate from "./screens/donate";
 import login from "./screens/login";
 import userTypeSignup from "./screens/userTypeSignup";
 import signup from "./screens/signup";
+import donatorSignup from "./screens/donatorSignup";
 
 function App() {
   const [userType, setUserType] = useState("user");
@@ -21,6 +22,7 @@ function App() {
       <Route path="/browse" component={browse} />
       <Route path="/donate" component={donate} />
       <Route path="/signup" component={signup} />
+      <Route path="/donatorSignup" component={donatorSignup} />
     </BrowserRouter>
   );
 }
