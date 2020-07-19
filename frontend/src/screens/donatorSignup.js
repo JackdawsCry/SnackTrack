@@ -8,22 +8,21 @@ function donatorSignup(props) {
       <img class="logo" src="img/logo.png" alt="Our logo" />
       <h2>Restaurant Sign Up</h2>
       <div class="donatorSignup">
-        <label for="fname">Restaurant Name: </label>
-        <input type="text" id="fname" name="fname" />
+        <label>Restaurant Name: </label>
+        <input/>
         <p></p>
-        <label for="fname">Phone Number: </label>
-        <input type="text" id="fname" name="fname" />
+        <label>Phone Number: </label>
+        <input/>
         <p></p>
-        <label for="fname">Address: </label>
-        <input type="text" id="fname" name="fname" />
+        <label>Address: </label>
+        <input/>
         <p></p>
-        <label for="fname">Username: </label>
-        <input type="text" id="fname" name="fname" />
+        <label>Username: </label>
+        <input/>
         <p></p>
-        <label for="fname">Password: </label>
-        <input type="text" id="fname" name="fname" />
-        <p>
-        </p>
+        <label>Password: </label>
+        <input/>
+        <p></p>
         <button>Submit</button>
       </div>
     </div>
