@@ -53,3 +53,11 @@ button:active {
     text-decoration: none;
     color: black;
 }
+
+.donateInputField{
+    padding: 10px 0;
+}
+
+.donateField{
+    flex-direction: row;  
+}
