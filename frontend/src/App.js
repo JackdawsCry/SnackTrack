@@ -6,7 +6,6 @@ import landing from "./screens/landing";
 import browse from "./screens/browse";
 import donate from "./screens/donate";
 import login from "./screens/login";
-import userTypeLogin from "./screens/userTypeLogin";
 import userTypeSignup from "./screens/userTypeSignup";
 
 function App() {
