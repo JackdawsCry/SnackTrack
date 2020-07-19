@@ -1,16 +1,15 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-function login(props) {
+function landing(props) {
   return (
     <div className="container">
       <h1> SnackTrack </h1>
       <img className="logo" src="img/logo.png" alt="Our logo" />
       <div className="landing">
-        <Link to="/userTypeLogin">
+        <Link to="/login">
           <button>Login</button>
         </Link>
-
         <Link to="/userTypeSignup">
           <button>Sign Up</button>
         </Link>
@@ -19,4 +18,4 @@ function login(props) {
   );
 }
 
-export default login;
+export default landing;
