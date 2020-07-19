@@ -31,9 +31,14 @@ button {
     outline: none;
 }
 
+button:hover {
+    background-color: orange;
+}
+
 button:active {
     background-color: orange;
 }
+
 
 .login {
     font-family: 'Mulish', sans-serif;
